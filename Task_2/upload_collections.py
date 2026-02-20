@@ -3,7 +3,7 @@ from pymongo.server_api import ServerApi
 import json
 
 client = MongoClient(
-    "mongodb+srv://goitlearnRos:1488228322@cluster0.6sa0kld.mongodb.net/?appName=Cluster0",
+    "mongodb+srv://goitlearnRos:password@cluster0.6sa0kld.mongodb.net/?appName=Cluster0",
     server_api=ServerApi("1"),
 )
 
